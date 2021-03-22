@@ -1,0 +1,126 @@
+Inline Style Sheet
+<html>
+<head>
+<title>inline</title>
+</head>
+<body bgcolor="gold">
+<h1 align="center" style="color:black;font-size:50px">COLLEGE OF ENGINEERING VADAKARA</h1><br>
+<center><img style="float:center" src="cev.jpg" alt="college image" height="300" width="500"></center>
+<table align="center" style="background-color:white;color:blue" border="2" height="200" width="350"> <caption style="background-color:">COURSES OFFERED</caption>
+<tr>
+<th>UG B.Tech</th>
+<th>PG</th>
+</tr>
+<tr>
+<td>Electronics & Communication Engineering</td> <td rowspan="4">MCA</td>
+</tr>
+<tr>
+<td>Computer Science and Engineering</td> </tr>
+<tr>
+<td>Information Technology</td>
+ 
+   </tr>
+<tr>
+<td>Civil Engineering</td>
+</tr>
+</table><br>
+<b>For department information</b> <i><a href="basictags.html">click here:</a></i> </body>
+</html>
+Internal Style Sheet <html>
+<head> <title>css</title> <style>
+h1
+{
+font-family:veradana; color:orange; text-align: center; font-size:30px;
+}
+body
+{ background-color:green }
+img
+{
+float:right
+ 
+   }
+table,caption
+{
+color:black;
+background-color:yellow;
+}
+a
+{
+font-size:40px
+}
+</style>
+</head>
+<body bgcolor="orange">
+<h1 align="center">COLLEGE OF ENGINEERING VADAKARA</h1><br>
+<center><img src="cev2.jpg" alt="college image" height="200" width="400"></center> <table border="2" height="150" width="350">
+<caption>COURSES OFFERED</caption>
+<tr>
+<th>B.Tech</th>
+<th>PG</th>
+</tr>
+<tr>
+<td>Electronics & Communication Engineering</td>
+<td rowspan="4">MCA</td>
+</tr>
+<tr>
+<td>Computer Science and Engineering</td>
+</tr>
+<tr>
+ 
+   <td>Information Technology</td> </tr>
+<tr>
+<td>Civil Engineering</td>
+</tr>
+</table><br>
+For more info<a href="basictags.html">click here</a> </body>
+</html>
+Css1.html
+body
+{ background-color:green; }
+h1
+{
+color:orange; text-align:center; font-family:verdana;
+}
+img
+{
+float:right
+}
+table,caption
+{ background-color:tomato;
+ 
+   color:black
+}
+a
+{ font-size:40px }
+External Style Sheet
+<html>
+<head>
+<title>css</title>
+<link type="text/css" rel="stylesheet" href="css1.css"> </head>
+<body>
+<h1>COLLEGE OF ENGINEERING VADAKARA</h1><br></center> <center><img src="cev.jpg" alt="college image" height="200" width="500"> <table border="2" height="150" width="350">
+<caption>COURSES OFFERED</caption>
+<tr>
+<th>UG</th>
+<th>PG</th>
+</tr>
+<tr>
+<td>Electronics & Communication Engineering</td>
+<td rowspan="4">MCA</td>
+</tr>
+<tr>
+<td>Computer Science and Engineering</td>
+</tr>
+ 
+   <tr>
+<td>Information Technology</td>
+</tr>
+<tr>
+<td>Civil Engineering</td>
+</tr>
+</table><br>
+<a href="basictags.html">click here</a> </body>
+</html>
+
+  
+    
