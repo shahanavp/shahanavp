@@ -1,1 +1,24 @@
 
+<html>
+<head>
+<title>BASIC TAGS</title></head>
+<body bgcolor="pink">
+<center>
+<h1><font color="blue">COLLEGE OF ENGINEERING VADAKARA </font></h1><FONT COLOR="WHITE">
+<p> The College of Engineering Vadakara is an engineering college in Kozhikode district of Kerala,established in 1999.<br>The first engineering college under the Co-operative Academy of Professional Education, Thiruvananthapuram, established by Govt. of Kerala, started functioning in June 1999.
+</p>
+<IMG SRC="C:\Users\USER\Documents\cev.jpg" width="700" height="500"></IMG> </center>
+<ul>
+<LI>OVERVIEW</LI>
+<LI>COURSE ADMISSION</LI>
+<li>CONTACT</LI> <LI>PLACEMENT</LI> <LI>WEBSITE</LI> </ul>
+<ol>
+<H3><U><I><B>DEPARTMENTS</U></B></H3> <LI>MCA</LI>
+<LI>CIVIL</LI>
+<LI>CSE</LI>
+ 
+<LI>MECH</LI> <LI>EEE</LI> </I>
+</ol>
+</FONT> </body>
+</html>
+
