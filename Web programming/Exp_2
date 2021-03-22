@@ -1,0 +1,92 @@
+
+<HTML>
+<HEAD>
+<TITLE>WEB</TITLE>
+</HEAD>
+<BODY bgcolor="skyblue">
+<center>
+<h1>COLLEGE OF ENGINEERING , VADAKARA</h1>
+<img src="cev.jpeg" alt="image not found" usemap="#mapping" width="400" height="400">
+<map name="mapping">
+<area shape="rect" coords="100,200,150,250" alt="image" href="a.html ">
+<p>College of Engineering Vadakara (CEV) formerly known as Co-operative Institute of Technology,
+Vadakara, is the first engineering college under Co-operative Academy of Professional Education (CAPE) established by
+Govt. of Kerala in the year 1999. This was started with a broad vision of assisting the Government to impart quality education
+to the meritorious and economically backward students in the State without much financial burden.</p>
+<br>
+<TABLE border="2" height="300" width="300"> <TR>
+COURSES OFFERING
+</TR>
+<TR>
+<TH>NO.</TH>
+<TH>BRANCH</TH>
+<TH>INTAKE</TH>
+</TR>
+<TR>
+<TD>1 .
+ 
+<TD>Civil engineering <TD>63
+</TR>
+<TR>
+<TD>2 .
+<TD>Computer science engineering
+<TD>63
+</TR>
+<TR>
+<TD>3 .
+<TD>Electrical & electronic engineering
+<TD>63
+</TR>
+<TR>
+<TD>4 .
+<TD>Electonics and communication engineering <TD>63
+</TR>
+<TR>
+<TD>5
+<TD>Electronic & instrumentation engineering <TD>30
+</TR>
+<TR>
+<TD>6 .</TD>
+<TD>information technology <\TD> <TD>30</TD>
+</TR>
+</table>
+
+<br>
+<a href="address.html">click here to contact us </a> </center>
+</map>
+</body>
+</html>
+OUTPUT:
+   
+  2.1:
+<html>
+<head>
+<title>web</title>
+</head>
+<body>
+<CENTER>
+<h2>ADDRESS</H2>
+<H4>COLLEGE OF ENGINEERING,VADAKARA</H4> MANDARATHORE (POST)<br>
+VADAKARA<br>
+KOZHIKODE DISTRICT<br>
+KERALA<br>
+INDIA<br>
+673105<br>
+EMAIL : citvcap@gmail.com<br>
+</CENTER>
+
+</body> </html>
+OUTPUT:
+   2.2:
+<html>
+<head>
+<title>web</title>
+</head>
+<body>
+<center>
+<h2>Welcome to CEV</h2>
+<p>College of Engineering Vadakara (CEV) formerly known as Co-operative Institute of Technology, Vadakara, is the first engineering college under Co-operative Academy of Professional Education (CAPE) established by Govt. of Kerala in the year 1999. This was started with a broad vision of assisting the Government to impart quality education to the meritorious and economically backward students in the State without much financial burden.</p>
+
+<p>CEV is committed to the Government of India and Government of Kerala policy of uplifting the weaker sections of the society by imparting professional education to the students. Accordingly, CEV is located in the socially and educationally backward Malabar region of Kerala state. CEV is located at Kurunthodi in Maniyur village 13 km away from Vadakara town along the Palayad – Maniyur road. CEV is situated on the hilltop of “Kakoramala”, with lush green and beautiful surroundings stretching over an area of about 27 acres. The nearest railway station, Vadakara is 14 Km away from the campus.</p>
+</center> </body> </html> 
+   
