@@ -1,0 +1,62 @@
+<!DOCTYPE html> <head>
+<title>Online Exam</title> <style>
+.question {
+margin: auto; margin-bottom: 5px; width: 70%; padding: 20px;
+}
+.option {
+padding: 5px 10px; }
+.submit {
+text-align: center; }
+.submit input {
+padding: 5px 10px; border-radius: 3px; color:pink; font-size: 14px;
+}
+</style> </head>
+<body>
+<div class="question">
+<h2 style="text-align: center;margin: 0;"><u>ONLINE EXAMINATION</u></h2> </div>
+<form name="examForm" onsubmit="return valuateExam()" onreset="onReset()" method="get"> <div class="question">
+<h3>1. Which tag is used for paragraph in html</h3> <div class="option">
+<input type="radio" id="q1a" name="q1" value="<pre>" required/>
+
+<label for="q1a">pre</label> </div>
+<div class="option">
+<input type="radio" id="q1b" name="q1" value="<p>"/> <label for="q1b">p</label>
+</div>
+<div class="option">
+<input type="radio" id="q1c" name="q1" value="<div>"/>
+<label for="q1c">div</label> </div>
+<div class="option">
+<input type="radio" id="q1d" name="q1" value="None of these"/> <label for="q1d">None of these</label>
+</div> </div>
+<div class="question">
+<h3>2. Which of the following element is responsible for making the text bold in HTML?</h3> <div class="option">
+<input type="radio" id="q2a" name="q2" value="<pre>" required/>
+<label for="q2a">&ltpre&gt</label> </div>
+<div class="option">
+<input type="radio" id="q2b" name="q2" value="<a>"/> <label for="q2b">&lta&gt</label>
+</div>
+<div class="option">
+<input type="radio" id="q2c" name="q2" value="<b>"/>
+<label for="q2c">&ltb&gt</label> </div>
+<div class="option">
+<input type="radio" id="q2d" name="q2" value="<br>"/> <label for="q2d">&ltbr&gt</label>
+</div> </div>
+<div class="question submit ">
+<input type="submit" value="Submit"/>
+<input style="background-color: #374045;" type="reset">
+<h2 id='marks'></h2> </div>
+</form>
+<script>
+function valuateExam(){
+marks = 0; if(document.examForm.q1.value == "<p>"){
+
+marks += 1; }
+if(document.examForm.q2.value == "<b>"){ marks += 1;
+}
+document.getElementById('marks').innerHTML = 'Your Marks: ' + marks + '/2'; console.log(marks);
+return false;
+}
+function onReset(){
+document.getElementById('marks').innerHTML = '' }
+</script> </body>
+</html>
