@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<body bgcolor="grey">
+<center>
+<h2>boolean operations</h2>
+</center>
+<script>
+var age=prompt("enter your age");
+if (age>18)
+{
+document.write("you are eligilble fo voting");
+}
+else if(age<18)
+{
+document.write("you are not eligible for voting");
+}
+else (age=18)
+{
+document.write("you are also eligile for voting");
+}
+</script>
+</body>
+</html>
